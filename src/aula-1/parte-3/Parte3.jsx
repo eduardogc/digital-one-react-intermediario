@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import NameForm from './components/NameForm';
 import SorveteForm from './components/SorveteForm';
 import FileInput from './components/FileInput';
+import FormikForm from './components/FormikForm';
 
 const ClassRoom = styled.div`
 	display: flex;
@@ -31,11 +32,13 @@ const Parte3 = () => {
 				<button onClick={() => setTopic(1)}>Form 1</button>
 				<button onClick={() => setTopic(2)}>Form 2</button>
 				<button onClick={() => setTopic(3)}>Form 3</button>
+				<button onClick={() => setTopic(4)}>Form 4</button>
 			</ClassRoomControls>
 			<ClassRoomBoard>
 				{topic === 1 && <NameForm />}
 				{topic === 2 && <SorveteForm />}
 				{topic === 3 && <FileInput />}
+				{topic === 4 && <FormikForm />}
 			</ClassRoomBoard>
 		</ClassRoom>
 	);
