@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
+import Counter from './components/Counter';
 
 const ClassRoom = styled.div`
 	display: flex;
@@ -19,16 +20,13 @@ const ClassRoomBoard = styled.div`
 `;
 
 const Aula2 = () => {
-  const [topic, setTopic] = useState(1);
-
   return (
     <ClassRoom>
       <ClassRoomControls>
-        <button onClick={() => setTopic(1)}>Tópico 1</button>
-        <button onClick={() => setTopic(2)}>Tópico 2</button>
+        Tópico único ;)
       </ClassRoomControls>
       <ClassRoomBoard>
-        <div>Em breve...</div>
+        <Counter />
       </ClassRoomBoard>
     </ClassRoom>
   );
