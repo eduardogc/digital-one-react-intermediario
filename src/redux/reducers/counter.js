@@ -1,6 +1,6 @@
 import { INCREMENT, DECREMENT } from '../actions/counter';
 
-const initialState = {
+export const initialState = {
   count: 0
 }
 
