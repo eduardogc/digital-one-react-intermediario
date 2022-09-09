@@ -2,7 +2,6 @@
 
 Este código foi produzido com o intuito de prover exemplos ao [curso da Digital Innovation One](https://web.digitalinnovation.one/course/desenvolvimento-de-aplicacoes-para-internet-com-reactjs/learning/c6a6c9e3-c419-4443-9191-b3bf851d1ce4).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K5EX3A1)
 
 ## Setup
 
@@ -25,4 +24,6 @@ Veja a documentação, na seção [running tests](https://facebook.github.io/cre
 
 Empacota o projeto em um bundle de produção na pasta `build`.<br>
 Veja mais na seção [deployment](https://facebook.github.io/create-react-app/docs/deployment) da documentacao para saber mais como efetuar um deploy correto de sua aplicação.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K5EX3A1)
 
